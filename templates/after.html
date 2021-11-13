@@ -1,0 +1,37 @@
+<html>
+
+<body bgcolor=#FFB6C1>
+
+    <center>
+        <br><br><br><br><br>
+
+        <h1 style="font-family:courier;background-color:yellow;">  PREDICTION :  </h1><br><br>
+    
+    {%if data == 0%}
+    <h1 style="font-family:courier;">Iris-setosa</h1>  
+    <img src='static\iris_setosa.jpg'>  
+
+    {%elif data==1 %}
+    <h1 style="font-family:courier;">Iris-versicolor</h1>
+    <img src='static\iris_versicolor.jpg'>
+
+    {% else %}
+    <h1 style="font-family:courier;">Iris-virginica</h1>
+    <img src='static\iris_virginica.jpg'>
+    
+    {%endif%}
+
+        <br><br>
+    <a href='/'>go back to home page</a>
+
+    </center>
+
+</body>
+
+</html>
+
+
+
+
+
+
